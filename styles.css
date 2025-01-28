@@ -1,0 +1,146 @@
+body {
+    display: grid;
+    grid-area: auto 1fr auto;
+    height: 100dvh;
+    width: 100%;
+    background-color: rgb(255, 196, 205);
+    font-size: 17px;
+}
+
+header {
+    background-color: rgb(162, 29, 29);
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+
+main {
+    background: linear-gradient(0grad, #ddfcffff, rgb(146, 211, 255), #ddfcffff);
+    padding-top: 2rem;
+}
+
+footer {
+    background-color: beige;
+}
+
+.course {
+    background-color: antiquewhite;
+    margin: 1rem auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.553);
+    display: flex;
+    overflow: hidden;
+    max-width: 30rem;
+    transition: all 500ms ease-in-out;
+}
+
+.course-text {
+    background-color: antiquewhite;
+    width: 60%;
+    padding: 10px 20px;
+
+}
+
+.course img {
+    width: 40%;
+}
+
+.registration {
+    background-color: rgb(217, 176, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5rem auto;
+    width: 70%;
+    max-width: 40rem;
+    box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.426);
+
+}
+
+.registration > *:not(form){
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin: 1rem auto;
+}
+
+input {
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.446);
+    border-radius: 5px;
+    margin-top: 0.2rem;
+}
+
+input[type="submit"] {
+    width: 10rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: 2px 2px 6px -1px black;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: brown;
+}
+
+.locations {
+    padding: 10px 20px;
+    margin: 5rem auto;
+}
+
+table {
+    background-color: azure;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 9px -3px rgba(0, 0, 0, 0.426);
+}
+
+.locations h3 {
+    text-align: center;
+}
+
+td, th {
+    padding: 0.8rem;
+}
+
+th {
+    background-color: rgba(0, 0, 255, 0.701);
+    color: aliceblue;
+}
+
+footer {
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(0, 43, 107);
+    color: rgb(209, 209, 209);
+}
+
+.hover-up:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.362);
+}
+
+tr {
+    transition: all 600ms ease-in-out;
+}
+tr:not(first-child):hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.362);
+    background-color: rgba(201, 234, 255, 0.863);
+}
+
+a {
+    color: inherit;
+}
